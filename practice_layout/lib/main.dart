@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         body: const SingleChildScrollView(
           child: Column(
             children: [
-              ImageSection(image: 'images/flower.jpg'),
+              ImageSection(image: 'assets/images/flower.jpg'),
               TitleSection(name: 'ดอกเห็ด', location: 'มอเกษตรกำแพงแสน'),
               ButtonSection(),
               TextSection(
